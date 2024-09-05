@@ -1,2 +1,19 @@
 # google_qec_3_experiment
-google 2022 nature experiment
+尝试复现google 2022年发表在Nature的Suppressing quantum errors by scaling a surface code logical qubit论文，其中使用到了stim模拟器。
+
+## 1. 环境配置
+
+创建新的python环境，使用anaconda创建虚拟环境，并安装相关依赖。
+
+```bash
+conda create -n google_qec python=3.8
+conda activate google_qec 
+
+python -m pip install jupyter
+python -m pip install stim
+python -m pip install numpy
+python -m pip install scipy
+
+python -m pip install stimcirq
+python -m pip install cirq
+```
