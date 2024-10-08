@@ -1,0 +1,288 @@
+------------------------r:3, d:3-------------------------
+L0:35
+max_key:D9, max_value:48
+connected_detector len:12
+max connectivity detector coordinates: [2.0, 4.0, 1.0]
+max connectivity detector: D9, detector indexs: [2, 5, 6, 8, 10, 13, 24, 12, 16, 7, 14, 11, 17], detector indexs len: 13
+max connectivity detector's connected detector coordinates: [[4.0, 4.0, 0.0], [2.0, 2.0, 1.0], [4.0, 2.0, 1.0], [0.0, 4.0, 1.0], [4.0, 4.0, 1.0], [2.0, 2.0, 2.0], [2.0, 0.0, 2.0], [0.0, 4.0, 2.0], [6.0, 2.0, 1.0], [4.0, 2.0, 2.0], [4.0, 6.0, 1.0], [2.0, 4.0, 2.0]]
+detector_error_model_number:24
+------------------------r:5, d:3-------------------------
+L0:71
+max_key:D14, max_value:56
+connected_detector len:14
+max connectivity detector coordinates: [4.0, 2.0, 2.0]
+max connectivity detector: D14, detector indexs: [6, 7, 10, 13, 40, 9, 11, 18, 15, 16, 17, 12, 21, 20, 22], detector indexs len: 15
+max connectivity detector's connected detector coordinates: [[4.0, 2.0, 1.0], [6.0, 2.0, 1.0], [4.0, 4.0, 1.0], [2.0, 2.0, 2.0], [2.0, 4.0, 1.0], [4.0, 6.0, 1.0], [4.0, 4.0, 2.0], [6.0, 2.0, 2.0], [0.0, 4.0, 2.0], [2.0, 4.0, 2.0], [2.0, 0.0, 2.0], [2.0, 2.0, 3.0], [2.0, 0.0, 3.0], [4.0, 2.0, 3.0]]
+detector_error_model_number:40
+------------------------r:7, d:3-------------------------
+L0:40
+max_key:D9, max_value:57
+connected_detector len:12
+max connectivity detector coordinates: [2.0, 4.0, 1.0]
+max connectivity detector: D9, detector indexs: [2, 5, 6, 8, 10, 11, 17, 13, 56, 12, 16, 7, 14], detector indexs len: 13
+max connectivity detector's connected detector coordinates: [[4.0, 4.0, 0.0], [2.0, 2.0, 1.0], [4.0, 2.0, 1.0], [0.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 6.0, 1.0], [2.0, 4.0, 2.0], [2.0, 2.0, 2.0], [2.0, 0.0, 2.0], [0.0, 4.0, 2.0], [6.0, 2.0, 1.0], [4.0, 2.0, 2.0]]
+detector_error_model_number:56
+------------------------r:9, d:3-------------------------
+L0:40
+max_key:D9, max_value:57
+connected_detector len:12
+max connectivity detector coordinates: [2.0, 4.0, 1.0]
+max connectivity detector: D9, detector indexs: [2, 5, 6, 8, 10, 11, 17, 13, 72, 12, 16, 7, 14], detector indexs len: 13
+max connectivity detector's connected detector coordinates: [[4.0, 4.0, 0.0], [2.0, 2.0, 1.0], [4.0, 2.0, 1.0], [0.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 6.0, 1.0], [2.0, 4.0, 2.0], [2.0, 2.0, 2.0], [2.0, 0.0, 2.0], [0.0, 4.0, 2.0], [6.0, 2.0, 1.0], [4.0, 2.0, 2.0]]
+detector_error_model_number:72
+------------------------r:11, d:3-------------------------
+L0:40
+max_key:D9, max_value:57
+connected_detector len:12
+max connectivity detector coordinates: [2.0, 4.0, 1.0]
+max connectivity detector: D9, detector indexs: [2, 5, 6, 8, 10, 11, 17, 13, 88, 12, 16, 7, 14], detector indexs len: 13
+max connectivity detector's connected detector coordinates: [[4.0, 4.0, 0.0], [2.0, 2.0, 1.0], [4.0, 2.0, 1.0], [0.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 6.0, 1.0], [2.0, 4.0, 2.0], [2.0, 2.0, 2.0], [2.0, 0.0, 2.0], [0.0, 4.0, 2.0], [6.0, 2.0, 1.0], [4.0, 2.0, 2.0]]
+detector_error_model_number:88
+------------------------r:13, d:3-------------------------
+L0:40
+max_key:D9, max_value:57
+connected_detector len:12
+max connectivity detector coordinates: [2.0, 4.0, 1.0]
+max connectivity detector: D9, detector indexs: [2, 5, 6, 8, 10, 11, 17, 13, 104, 12, 16, 7, 14], detector indexs len: 13
+max connectivity detector's connected detector coordinates: [[4.0, 4.0, 0.0], [2.0, 2.0, 1.0], [4.0, 2.0, 1.0], [0.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 6.0, 1.0], [2.0, 4.0, 2.0], [2.0, 2.0, 2.0], [2.0, 0.0, 2.0], [0.0, 4.0, 2.0], [6.0, 2.0, 1.0], [4.0, 2.0, 2.0]]
+detector_error_model_number:104
+------------------------r:3, d:5-------------------------
+L0:71
+max_key:D21, max_value:71
+connected_detector len:21
+max connectivity detector coordinates: [4.0, 4.0, 1.0]
+max connectivity detector: D21, detector indexs: [4, 15, 20, 6, 13, 7, 22, 25, 8, 17, 16, 14, 39, 24, 38, 44, 43, 26, 45, 30, 48], detector indexs len: 21
+max connectivity detector's connected detector coordinates: [[4.0, 4.0, 0.0], [4.0, 2.0, 1.0], [2.0, 4.0, 1.0], [6.0, 2.0, 0.0], [6.0, 0.0, 1.0], [6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [6.0, 2.0, 1.0], [2.0, 2.0, 1.0], [4.0, 2.0, 2.0], [2.0, 6.0, 1.0], [2.0, 2.0, 2.0], [2.0, 4.0, 2.0], [0.0, 4.0, 2.0], [6.0, 6.0, 1.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0]]
+detector_error_model_number:72
+------------------------r:5, d:5-------------------------
+L0:139
+max_key:D45, max_value:80
+connected_detector len:23
+max connectivity detector coordinates: [6.0, 4.0, 2.0]
+max connectivity detector: D46, detector indexs: [22, 23, 26, 40, 45, 25, 27, 32, 47, 50, 41, 48, 55, 49, 39, 64, 120, 63, 69, 61, 42, 65, 51, 70], detector indexs len: 24
+max connectivity detector's connected detector coordinates: [[6.0, 4.0, 1.0], [8.0, 4.0, 1.0], [6.0, 6.0, 1.0], [6.0, 2.0, 2.0], [4.0, 4.0, 2.0], [4.0, 6.0, 1.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [8.0, 4.0, 2.0], [6.0, 6.0, 2.0], [8.0, 2.0, 2.0], [2.0, 6.0, 2.0], [4.0, 8.0, 2.0], [4.0, 6.0, 2.0], [4.0, 2.0, 2.0], [6.0, 2.0, 3.0], [4.0, 2.0, 3.0], [4.0, 4.0, 3.0], [6.0, 0.0, 3.0], [10.0, 2.0, 2.0], [8.0, 2.0, 3.0], [8.0, 6.0, 2.0], [6.0, 4.0, 3.0]]
+detector_error_model_number:120
+------------------------r:7, d:5-------------------------
+L0:79
+max_key:D21, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [4.0, 4.0, 1.0]
+max connectivity detector: D21, detector indexs: [4, 15, 20, 6, 13, 7, 22, 25, 8, 17, 16, 14, 24, 26, 45, 39, 38, 44, 43, 30, 48], detector indexs len: 21
+max connectivity detector's connected detector coordinates: [[4.0, 4.0, 0.0], [4.0, 2.0, 1.0], [2.0, 4.0, 1.0], [6.0, 2.0, 0.0], [6.0, 0.0, 1.0], [6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [6.0, 2.0, 1.0], [2.0, 2.0, 1.0], [2.0, 6.0, 1.0], [6.0, 6.0, 1.0], [4.0, 4.0, 2.0], [4.0, 2.0, 2.0], [2.0, 2.0, 2.0], [2.0, 4.0, 2.0], [0.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0]]
+detector_error_model_number:168
+------------------------r:9, d:5-------------------------
+L0:79
+max_key:D21, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [4.0, 4.0, 1.0]
+max connectivity detector: D21, detector indexs: [4, 15, 20, 6, 13, 7, 22, 25, 8, 17, 16, 14, 24, 26, 45, 39, 38, 44, 43, 30, 48], detector indexs len: 21
+max connectivity detector's connected detector coordinates: [[4.0, 4.0, 0.0], [4.0, 2.0, 1.0], [2.0, 4.0, 1.0], [6.0, 2.0, 0.0], [6.0, 0.0, 1.0], [6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [6.0, 2.0, 1.0], [2.0, 2.0, 1.0], [2.0, 6.0, 1.0], [6.0, 6.0, 1.0], [4.0, 4.0, 2.0], [4.0, 2.0, 2.0], [2.0, 2.0, 2.0], [2.0, 4.0, 2.0], [0.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0]]
+detector_error_model_number:216
+------------------------r:11, d:5-------------------------
+L0:79
+max_key:D21, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [4.0, 4.0, 1.0]
+max connectivity detector: D21, detector indexs: [4, 15, 20, 6, 13, 7, 22, 25, 8, 17, 16, 14, 24, 26, 45, 39, 38, 44, 43, 30, 48], detector indexs len: 21
+max connectivity detector's connected detector coordinates: [[4.0, 4.0, 0.0], [4.0, 2.0, 1.0], [2.0, 4.0, 1.0], [6.0, 2.0, 0.0], [6.0, 0.0, 1.0], [6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [6.0, 2.0, 1.0], [2.0, 2.0, 1.0], [2.0, 6.0, 1.0], [6.0, 6.0, 1.0], [4.0, 4.0, 2.0], [4.0, 2.0, 2.0], [2.0, 2.0, 2.0], [2.0, 4.0, 2.0], [0.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0]]
+detector_error_model_number:264
+------------------------r:13, d:5-------------------------
+L0:79
+max_key:D21, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [4.0, 4.0, 1.0]
+max connectivity detector: D21, detector indexs: [4, 15, 20, 6, 13, 7, 22, 25, 8, 17, 16, 14, 24, 26, 45, 39, 38, 44, 43, 30, 48], detector indexs len: 21
+max connectivity detector's connected detector coordinates: [[4.0, 4.0, 0.0], [4.0, 2.0, 1.0], [2.0, 4.0, 1.0], [6.0, 2.0, 0.0], [6.0, 0.0, 1.0], [6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [6.0, 2.0, 1.0], [2.0, 2.0, 1.0], [2.0, 6.0, 1.0], [6.0, 6.0, 1.0], [4.0, 4.0, 2.0], [4.0, 2.0, 2.0], [2.0, 2.0, 2.0], [2.0, 4.0, 2.0], [0.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0]]
+detector_error_model_number:312
+------------------------r:3, d:7-------------------------
+L0:107
+max_key:D43, max_value:72
+connected_detector len:22
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D43, detector indexs: [10, 37, 42, 12, 30, 13, 44, 51, 16, 39, 38, 36, 85, 50, 84, 49, 89, 90, 52, 91, 56, 98], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [6.0, 4.0, 2.0], [4.0, 8.0, 1.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:144
+------------------------r:5, d:7-------------------------
+L0:207
+max_key:D84, max_value:80
+connected_detector len:23
+max connectivity detector coordinates: [8.0, 4.0, 2.0]
+max connectivity detector: D86, detector indexs: [31, 39, 44, 74, 78, 38, 85, 40, 80, 87, 45, 79, 92, 91, 77, 126, 125, 90, 132, 133, 93, 134, 99, 139], detector indexs len: 24
+max connectivity detector's connected detector coordinates: [[10.0, 2.0, 1.0], [10.0, 4.0, 1.0], [8.0, 6.0, 1.0], [10.0, 0.0, 2.0], [8.0, 2.0, 2.0], [8.0, 4.0, 1.0], [6.0, 4.0, 2.0], [12.0, 4.0, 1.0], [12.0, 2.0, 2.0], [10.0, 4.0, 2.0], [10.0, 6.0, 1.0], [10.0, 2.0, 2.0], [8.0, 6.0, 2.0], [6.0, 6.0, 2.0], [6.0, 2.0, 2.0], [8.0, 2.0, 3.0], [6.0, 2.0, 3.0], [4.0, 6.0, 2.0], [4.0, 4.0, 3.0], [6.0, 4.0, 3.0], [10.0, 6.0, 2.0], [8.0, 4.0, 3.0], [6.0, 8.0, 2.0], [6.0, 6.0, 3.0]]
+detector_error_model_number:240
+------------------------r:7, d:7-------------------------
+L0:118
+max_key:D36, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D43, detector indexs: [10, 37, 42, 12, 30, 13, 44, 51, 16, 39, 38, 36, 50, 52, 91, 85, 84, 49, 89, 90, 56, 98], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 8.0, 1.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [6.0, 4.0, 2.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:336
+------------------------r:9, d:7-------------------------
+L0:118
+max_key:D36, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D43, detector indexs: [10, 37, 42, 12, 30, 13, 44, 51, 16, 39, 38, 36, 50, 52, 91, 85, 84, 49, 89, 90, 56, 98], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 8.0, 1.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [6.0, 4.0, 2.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:432
+------------------------r:11, d:7-------------------------
+L0:118
+max_key:D36, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D43, detector indexs: [10, 37, 42, 12, 30, 13, 44, 51, 16, 39, 38, 36, 50, 52, 91, 85, 84, 49, 89, 90, 56, 98], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 8.0, 1.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [6.0, 4.0, 2.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:528
+------------------------r:13, d:7-------------------------
+L0:118
+max_key:D36, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D43, detector indexs: [10, 37, 42, 12, 30, 13, 44, 51, 16, 39, 38, 36, 50, 52, 91, 85, 84, 49, 89, 90, 56, 98], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 8.0, 1.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [6.0, 4.0, 2.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:624
+------------------------r:3, d:9-------------------------
+L0:143
+max_key:D64, max_value:72
+connected_detector len:22
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D64, detector indexs: [13, 56, 63, 16, 47, 17, 65, 74, 21, 58, 57, 55, 136, 73, 135, 72, 142, 143, 75, 144, 81, 153], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [6.0, 4.0, 2.0], [4.0, 8.0, 1.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:240
+------------------------r:5, d:9-------------------------
+L0:275
+max_key:D135, max_value:80
+connected_detector len:23
+max connectivity detector coordinates: [8.0, 4.0, 2.0]
+max connectivity detector: D137, detector indexs: [48, 58, 65, 122, 127, 57, 136, 59, 129, 138, 66, 128, 145, 144, 126, 207, 206, 143, 215, 216, 146, 217, 154, 224], detector indexs len: 24
+max connectivity detector's connected detector coordinates: [[10.0, 2.0, 1.0], [10.0, 4.0, 1.0], [8.0, 6.0, 1.0], [10.0, 0.0, 2.0], [8.0, 2.0, 2.0], [8.0, 4.0, 1.0], [6.0, 4.0, 2.0], [12.0, 4.0, 1.0], [12.0, 2.0, 2.0], [10.0, 4.0, 2.0], [10.0, 6.0, 1.0], [10.0, 2.0, 2.0], [8.0, 6.0, 2.0], [6.0, 6.0, 2.0], [6.0, 2.0, 2.0], [8.0, 2.0, 3.0], [6.0, 2.0, 3.0], [4.0, 6.0, 2.0], [4.0, 4.0, 3.0], [6.0, 4.0, 3.0], [10.0, 6.0, 2.0], [8.0, 4.0, 3.0], [6.0, 8.0, 2.0], [6.0, 6.0, 3.0]]
+detector_error_model_number:400
+------------------------r:7, d:9-------------------------
+L0:157
+max_key:D55, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D64, detector indexs: [13, 56, 63, 16, 47, 17, 65, 74, 21, 58, 57, 55, 73, 75, 144, 136, 135, 72, 142, 143, 81, 153], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 8.0, 1.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [6.0, 4.0, 2.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:560
+------------------------r:9, d:9-------------------------
+L0:157
+max_key:D55, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D64, detector indexs: [13, 56, 63, 16, 47, 17, 65, 74, 21, 58, 57, 55, 73, 75, 144, 136, 135, 72, 142, 143, 81, 153], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 8.0, 1.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [6.0, 4.0, 2.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:720
+------------------------r:11, d:9-------------------------
+L0:157
+max_key:D55, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D64, detector indexs: [13, 56, 63, 16, 47, 17, 65, 74, 21, 58, 57, 55, 73, 75, 144, 136, 135, 72, 142, 143, 81, 153], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 8.0, 1.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [6.0, 4.0, 2.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:880
+------------------------r:13, d:9-------------------------
+L0:157
+max_key:D55, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D64, detector indexs: [13, 56, 63, 16, 47, 17, 65, 74, 21, 58, 57, 55, 73, 75, 144, 136, 135, 72, 142, 143, 81, 153], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 8.0, 1.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [6.0, 4.0, 2.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:1040
+------------------------r:3, d:11-------------------------
+L0:179
+max_key:D89, max_value:72
+connected_detector len:22
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D89, detector indexs: [16, 79, 88, 20, 68, 21, 90, 101, 26, 81, 80, 78, 199, 100, 198, 99, 207, 208, 102, 209, 110, 220], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [6.0, 4.0, 2.0], [4.0, 8.0, 1.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:360
+------------------------r:5, d:11-------------------------
+L0:343
+max_key:D198, max_value:80
+connected_detector len:23
+max connectivity detector coordinates: [8.0, 4.0, 2.0]
+max connectivity detector: D200, detector indexs: [69, 81, 90, 182, 188, 80, 199, 82, 190, 201, 91, 189, 210, 209, 187, 308, 307, 208, 318, 319, 211, 320, 221, 329], detector indexs len: 24
+max connectivity detector's connected detector coordinates: [[10.0, 2.0, 1.0], [10.0, 4.0, 1.0], [8.0, 6.0, 1.0], [10.0, 0.0, 2.0], [8.0, 2.0, 2.0], [8.0, 4.0, 1.0], [6.0, 4.0, 2.0], [12.0, 4.0, 1.0], [12.0, 2.0, 2.0], [10.0, 4.0, 2.0], [10.0, 6.0, 1.0], [10.0, 2.0, 2.0], [8.0, 6.0, 2.0], [6.0, 6.0, 2.0], [6.0, 2.0, 2.0], [8.0, 2.0, 3.0], [6.0, 2.0, 3.0], [4.0, 6.0, 2.0], [4.0, 4.0, 3.0], [6.0, 4.0, 3.0], [10.0, 6.0, 2.0], [8.0, 4.0, 3.0], [6.0, 8.0, 2.0], [6.0, 6.0, 3.0]]
+detector_error_model_number:600
+------------------------r:7, d:11-------------------------
+L0:196
+max_key:D78, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D89, detector indexs: [16, 79, 88, 20, 68, 21, 90, 101, 26, 81, 80, 78, 100, 102, 209, 199, 198, 99, 207, 208, 110, 220], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 8.0, 1.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [6.0, 4.0, 2.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:840
+------------------------r:9, d:11-------------------------
+L0:196
+max_key:D78, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D89, detector indexs: [16, 79, 88, 20, 68, 21, 90, 101, 26, 81, 80, 78, 100, 102, 209, 199, 198, 99, 207, 208, 110, 220], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 8.0, 1.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [6.0, 4.0, 2.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:1080
+------------------------r:11, d:11-------------------------
+L0:196
+max_key:D78, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D89, detector indexs: [16, 79, 88, 20, 68, 21, 90, 101, 26, 81, 80, 78, 100, 102, 209, 199, 198, 99, 207, 208, 110, 220], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 8.0, 1.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [6.0, 4.0, 2.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:1320
+------------------------r:13, d:11-------------------------
+L0:196
+max_key:D78, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D89, detector indexs: [16, 79, 88, 20, 68, 21, 90, 101, 26, 81, 80, 78, 100, 102, 209, 199, 198, 99, 207, 208, 110, 220], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 8.0, 1.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [6.0, 4.0, 2.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:1560
+------------------------r:3, d:13-------------------------
+L0:215
+max_key:D118, max_value:72
+connected_detector len:22
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D118, detector indexs: [19, 106, 117, 24, 93, 25, 119, 132, 31, 108, 107, 105, 274, 131, 273, 130, 284, 285, 133, 286, 143, 299], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [6.0, 4.0, 2.0], [4.0, 8.0, 1.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:504
+------------------------r:5, d:13-------------------------
+L0:411
+max_key:D273, max_value:80
+connected_detector len:23
+max connectivity detector coordinates: [8.0, 4.0, 2.0]
+max connectivity detector: D275, detector indexs: [94, 108, 119, 254, 261, 107, 274, 109, 263, 276, 120, 262, 287, 286, 260, 429, 428, 285, 441, 442, 288, 443, 300, 454], detector indexs len: 24
+max connectivity detector's connected detector coordinates: [[10.0, 2.0, 1.0], [10.0, 4.0, 1.0], [8.0, 6.0, 1.0], [10.0, 0.0, 2.0], [8.0, 2.0, 2.0], [8.0, 4.0, 1.0], [6.0, 4.0, 2.0], [12.0, 4.0, 1.0], [12.0, 2.0, 2.0], [10.0, 4.0, 2.0], [10.0, 6.0, 1.0], [10.0, 2.0, 2.0], [8.0, 6.0, 2.0], [6.0, 6.0, 2.0], [6.0, 2.0, 2.0], [8.0, 2.0, 3.0], [6.0, 2.0, 3.0], [4.0, 6.0, 2.0], [4.0, 4.0, 3.0], [6.0, 4.0, 3.0], [10.0, 6.0, 2.0], [8.0, 4.0, 3.0], [6.0, 8.0, 2.0], [6.0, 6.0, 3.0]]
+detector_error_model_number:840
+------------------------r:7, d:13-------------------------
+L0:235
+max_key:D105, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D118, detector indexs: [19, 106, 117, 24, 93, 25, 119, 132, 31, 108, 107, 105, 131, 133, 286, 274, 273, 130, 284, 285, 143, 299], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 8.0, 1.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [6.0, 4.0, 2.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:1176
+------------------------r:9, d:13-------------------------
+L0:235
+max_key:D105, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D118, detector indexs: [19, 106, 117, 24, 93, 25, 119, 132, 31, 108, 107, 105, 131, 133, 286, 274, 273, 130, 284, 285, 143, 299], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 8.0, 1.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [6.0, 4.0, 2.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:1512
+------------------------r:11, d:13-------------------------
+L0:235
+max_key:D105, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D118, detector indexs: [19, 106, 117, 24, 93, 25, 119, 132, 31, 108, 107, 105, 131, 133, 286, 274, 273, 130, 284, 285, 143, 299], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 8.0, 1.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [6.0, 4.0, 2.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:1848
+------------------------r:13, d:13-------------------------
+L0:235
+max_key:D105, max_value:81
+connected_detector len:21
+max connectivity detector coordinates: [6.0, 6.0, 1.0]
+max connectivity detector: D118, detector indexs: [19, 106, 117, 24, 93, 25, 119, 132, 31, 108, 107, 105, 131, 133, 286, 274, 273, 130, 284, 285, 143, 299], detector indexs len: 22
+max connectivity detector's connected detector coordinates: [[6.0, 6.0, 0.0], [6.0, 4.0, 1.0], [4.0, 6.0, 1.0], [8.0, 4.0, 0.0], [8.0, 2.0, 1.0], [8.0, 8.0, 0.0], [8.0, 6.0, 1.0], [6.0, 8.0, 1.0], [10.0, 6.0, 0.0], [10.0, 4.0, 1.0], [8.0, 4.0, 1.0], [4.0, 4.0, 1.0], [4.0, 8.0, 1.0], [8.0, 8.0, 1.0], [6.0, 6.0, 2.0], [6.0, 4.0, 2.0], [4.0, 4.0, 2.0], [2.0, 8.0, 1.0], [2.0, 6.0, 2.0], [4.0, 6.0, 2.0], [4.0, 10.0, 1.0], [4.0, 8.0, 2.0]]
+detector_error_model_number:2184
