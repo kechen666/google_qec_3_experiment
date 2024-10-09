@@ -53,10 +53,10 @@ class MaxLikelihoodDecoder:
             if len(observable) == 1:
                 # 只有一个量子比特被翻转
                 if observable == "0":
-                    logger.info(f"no error, no use logical flip, the correct probability is {probability}")
+                    logger.info(f"no error, no use logical flip, the correct probability rate is {probability}")
                     error_correction_operation.append(0)
                 else:
-                    logger.info(f"error, use logical flip, the correct probability is {probability}")
+                    logger.info(f"error, use logical flip, the correct probability rate is {probability}")
                     error_correction_operation.append(0)
             else:
                 raise("Now, only for one logical qubit")
@@ -164,7 +164,8 @@ class MaxLikelihoodDecoder:
                 error_probability_distribution = probability_distribution
             # 根据检测器i的值，缩小错误概率分布的范围
             error_probability_distribution = {k:v for k,v in error_probability_distribution.items() if syndrome_detector_i == k[detector_i]}
-        
+            # 输入在线MLD方法，按照detector的顺序执行，每步执行的规模。
+            logger.debug(f"detector index: {detector_i}, uncomputed and connected edge number: {len(related_detector_error_model_dict)}, probability distribution length: {len(error_probability_distribution)}")
         return error_probability_distribution
     
     def compute_correcation_error_logical_probability(self, error_syndromes: np.array) -> float:
