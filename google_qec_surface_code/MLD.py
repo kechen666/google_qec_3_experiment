@@ -2,7 +2,8 @@ import stim
 
 import logging
 # 设置 logging 配置
-logging.basicConfig(level=logging.WARNING)
+# logging.basicConfig(level=logging.WARNING)
+logger = logging.getLogger(__name__)
 
 from typing import List, Union, Optional, Tuple, Set, Dict
 import numpy as np
@@ -52,10 +53,10 @@ class MaxLikelihoodDecoder:
             if len(observable) == 1:
                 # 只有一个量子比特被翻转
                 if observable == "0":
-                    logging.info(f"no error, no use logical flip, the correct probability is {probability}")
+                    logger.info(f"no error, no use logical flip, the correct probability is {probability}")
                     error_correction_operation.append(0)
                 else:
-                    logging.info(f"error, use logical flip, the correct probability is {probability}")
+                    logger.info(f"error, use logical flip, the correct probability is {probability}")
                     error_correction_operation.append(0)
             else:
                 raise("Now, only for one logical qubit")
