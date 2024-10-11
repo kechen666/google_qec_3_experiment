@@ -229,9 +229,12 @@ class MaxLikelihoodDecoder:
                     detector_number_distribution[key] = detector_number_distribution.get(key, 0) + 1
         return detector_number_distribution
     
-    def compute_detector_connectivity(self) -> Dict[str, List[int]]:
+    def compute_detector_connectivity(self, have_logical_obervable: bool = True) -> Dict[str, List[int]]:
         
         """计算在detector error model中, 每个detector相邻的detector数量, 在超图中不等于节点的度。
+        
+        Args:
+            have_logical_obervable (bool, optional): 是否包含逻辑态对应的检测器. Defaults to True. 如果为False, 即不包括L0项, D_i项中也不包含逻辑态对应的检测器索引。
         
         Returns:
             Dict[str, List[int]]: 通过字典表示每个detector相邻的detector。{"D0":[1,2,...],"D1":{0,2,...},...,"L0":[,...,]}
@@ -245,11 +248,22 @@ class MaxLikelihoodDecoder:
                     fliped_detector_observable_index_copy = fliped_detector_observable_index.copy()
                     key: str = ""
                     if index >= self.detector_number:
-                        key = f"L{index - self.detector_number}"
+                        if have_logical_obervable:
+                            # 如果包含逻辑态对应的检测器，则将逻辑态对应的检测器索引减去检测器数量
+                            key = f"L{index - self.detector_number}"
+                        else:
+                            # 如果不包含逻辑态对应的检测器，则跳过
+                            continue
                     else:
                         key = f"D{index}"
                     fliped_detector_observable_index_copy.remove(index)
                     for detector in fliped_detector_observable_index_copy:
+                        # 如果检测器索引大于等于检测器数量，则表示是逻辑态对应的检测器，直接跳过
+                        if detector >= self.detector_number:
+                            if have_logical_obervable:
+                                pass
+                            else:
+                                continue
                         value = detector_connectivity.get(key, [])
                         if detector not in detector_connectivity.get(key, []):
                             value.append(detector)
