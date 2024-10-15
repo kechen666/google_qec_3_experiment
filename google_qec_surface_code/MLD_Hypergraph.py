@@ -117,7 +117,7 @@ class MLD_Hypergraph:
             hypernetx.Hypergraph: 超图对象
         """
         hyperedges_number = len(self.hyperedges)
-        hypernetx_hyperedges =  [(self.hyperedges[i], {'weight': self.weights[i]}) for i in range(len(hyperedges_number))]
+        hypernetx_hyperedges =  [(self.hyperedges[i], {'weight': self.weights[i]}) for i in range(hyperedges_number)]
         
         return hnx.Hypergraph(hypernetx_hyperedges)
     
