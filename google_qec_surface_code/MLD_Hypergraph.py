@@ -12,7 +12,9 @@ class MLD_Hypergraph:
         self.detector_error_model = detector_error_model
         self.nodes: List[str]
         self.hyperedges: List[List[str]]
-        self.nodes, self.hyperedges = self.detector_error_model_to_hypergraph(detector_error_model)
+        self.weights: List[float]
+        
+        self.nodes, self.hyperedges, self.weights = self.detector_error_model_to_hypergraph(detector_error_model)
 
     def get_nodes(self) -> List[str]:
         return self.nodes
@@ -20,22 +22,21 @@ class MLD_Hypergraph:
     def get_hyperedges(self) -> List[List[str]]:
         return self.hyperedges
 
-    def detector_error_model_to_hypergraph(self, detector_error_model: stim.DetectorErrorModel)-> Tuple[List[str], List[List[str]]]:
+    def detector_error_model_to_hypergraph(self, detector_error_model: stim.DetectorErrorModel)-> Tuple[List[str], List[List[str]], List[float]]:
         """将错误检测模型转换为超图。
 
         Args:
             detector_error_model (stim.DetectorErrorModel): 错误检测模型
 
         Returns:
-            Tuple[List[str], List[List[str]]]: 节点集合和超边集合
+            Tuple[List[str], List[List[str]], List[float]]: 节点集合和超边集合
         """
         self.detector_number = detector_error_model.num_detectors
         self.logical_observable_number = detector_error_model.num_observables
         
         nodes = self.detector_and_logical_observable_number_to_hypernodes(self.detector_number, self.logical_observable_number)
-        hyperedges = self.detector_error_model_to_hyperedge(detector_error_model)
-        return nodes, hyperedges
-    # 直接从MLD中移植过来的，后续调整两个类的使用
+        hyperedges, weights = self.detector_error_model_to_hyperedge(detector_error_model)
+        return nodes, hyperedges, weights
 
     def detector_and_logical_observable_number_to_hypernodes(self, detector_number: int, logical_observable_number: int, have_logical_observable: bool = False) -> List[str]:
         """获取超图节点集合。
@@ -58,22 +59,25 @@ class MLD_Hypergraph:
         
         return nodes
 
-    def detector_error_model_to_hyperedge(self, detector_error_model: stim.DetectorErrorModel) -> List[List[str]]:
+    def detector_error_model_to_hyperedge(self, detector_error_model: stim.DetectorErrorModel) -> Tuple[List[List[str]], List[float]]:
         """将detector_error_model中的error事件转换为超图边。
 
         Args:
             detector_error_model (stim.DetectorErrorModel): 错误检测模型, 通过stim进行生成。
 
         Returns:
-            List[List[str]]: 超图边集合。例如[["D0","D1","D2"],["D3","D4","D5"]]
+            Tuple[List[List[str]], List[float]]: 超图边集合。例如[["D0","D1","D2"],["D3","D4","D5"]]
         """
         hyperedges = []
+        weights = []
         for error in detector_error_model:
             if error.type == "error":
                 error_even = error.targets_copy()
+                weight = error.args_copy()[0]
                 hyperedge = self.error_even_to_hyperedge(error_even)
                 hyperedges.append(hyperedge)
-        return hyperedges
+                weights.append(weight)
+        return hyperedges, weights
 
     def error_even_to_hyperedge(self, error_even: List[stim.DemTarget], have_logical_observable: bool = False) -> List[str]:
         """从一个error事件中,转换为一条超图边hyperedge。即错误事件翻转的detector和logical_observable的index。
