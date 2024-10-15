@@ -103,7 +103,7 @@ class MLD_Hypergraph:
                 hyperedge.append(f"L{flip_object.val}")
         return hyperedge
     
-    def draw_bipartite_graph(self, nodes: Union[int, None] = None, hyperedge: Union[int, None] = None) -> None:
+    def draw_bipartite_graph(self, nodes: Union[int, None] = None, hyperedges: Union[int, None] = None) -> None:
         # 创建一个空的二部图
         B = nx.Graph()
 
