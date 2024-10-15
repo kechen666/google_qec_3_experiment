@@ -104,6 +104,10 @@ class MLD_Hypergraph:
         return hyperedge
     
     def draw_bipartite_graph(self, nodes: Union[int, None] = None, hyperedges: Union[int, None] = None) -> None:
+        if nodes is None or hyperedges is None:
+            nodes = self.nodes
+            hyperedges = self.hyperedges
+            
         # 创建一个空的二部图
         B = nx.Graph()
 
