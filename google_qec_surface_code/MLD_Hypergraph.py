@@ -115,11 +115,11 @@ class MLD_Hypergraph:
 
         Returns:
             hypernetx.Hypergraph: 超图对象
-        """
-        hyperedges_number = len(self.hyperedges)
-        hypernetx_hyperedges =  [(self.hyperedges[i], {'weight': self.weights[i]}) for i in range(hyperedges_number)]
         
-        return hnx.Hypergraph(hypernetx_hyperedges)
+        use H.get_properties(0, level=0, prop_name='weight') to get the weight of the edge 0.
+        """
+        
+        return hnx.Hypergraph(self.hyperedges, edge_properties={i:{'weight':self.weights[i]} for i in range(len(self.hyperedges))})
     
     def draw_bipartite_graph(self, nodes: Union[int, None] = None, hyperedges: Union[int, None] = None) -> None:
         """绘制二部图。
