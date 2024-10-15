@@ -1,6 +1,7 @@
 import stim
 
 import networkx as nx
+import hypernetx as hnx
 import matplotlib.pyplot as plt
 
 import logging
@@ -27,6 +28,12 @@ class MLD_Hypergraph:
     
     def get_weights(self) -> List[float]:
         return self.weights
+    
+    def get_nodes_number(self) -> int:
+        return len(self.nodes)
+    
+    def get_hyperedges_number(self) -> int:
+        return len(self.hyperedges)
     
     def detector_error_model_to_hypergraph(self, detector_error_model: stim.DetectorErrorModel)-> Tuple[List[str], List[List[str]], List[float]]:
         """将错误检测模型转换为超图。
@@ -103,7 +110,29 @@ class MLD_Hypergraph:
                 hyperedge.append(f"L{flip_object.val}")
         return hyperedge
     
+    def to_hypernetx_hypergraph(self, nodes: List[str], hyperedges: List[List[str]], weights: List[float]) -> hnx.Hypergraph:
+        """将超图转换为hypernetx.Hypergraph对象。
+
+        Args:
+            nodes (List[str]): 节点集合
+            hyperedges (List[List[str]]): 超边集合
+            weights (List[float]): 超边权重集合
+
+        Returns:
+            hypernetx.Hypergraph: 超图对象
+        """
+        hyperedges_number = len(self.hyperedges)
+        hypernetx_hyperedges =  [(self.hyperedges[i], {'weight': self.weights[i]}) for i in range(len(hyperedges_number))]
+        
+        return hnx.Hypergraph(hypernetx_hyperedges)
+    
     def draw_bipartite_graph(self, nodes: Union[int, None] = None, hyperedges: Union[int, None] = None) -> None:
+        """绘制二部图。
+
+        Args:
+            nodes (Union[int, None], optional): 超图的节点. Defaults to None.
+            hyperedges (Union[int, None], optional): 超图的边. Defaults to None.
+        """
         if nodes is None or hyperedges is None:
             nodes = self.nodes
             hyperedges = self.hyperedges
