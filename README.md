@@ -16,6 +16,9 @@ python -m pip install scipy
 
 python -m pip install stimcirq
 python -m pip install cirq
+
+python -m pip install networkx
+python -m pip install hypernetx
 ```
 详细依赖环境，参考可以参考requirments.txt文件，或者直接使用其进行环境配置：
 
