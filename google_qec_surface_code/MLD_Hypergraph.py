@@ -110,13 +110,8 @@ class MLD_Hypergraph:
                 hyperedge.append(f"L{flip_object.val}")
         return hyperedge
     
-    def to_hypernetx_hypergraph(self, nodes: List[str], hyperedges: List[List[str]], weights: List[float]) -> hnx.Hypergraph:
+    def to_hypernetx_hypergraph(self) -> hnx.Hypergraph:
         """将超图转换为hypernetx.Hypergraph对象。
-
-        Args:
-            nodes (List[str]): 节点集合
-            hyperedges (List[List[str]]): 超边集合
-            weights (List[float]): 超边权重集合
 
         Returns:
             hypernetx.Hypergraph: 超图对象
