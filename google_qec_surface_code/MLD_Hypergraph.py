@@ -1,5 +1,8 @@
 import stim
 
+import networkx as nx
+import matplotlib.pyplot as plt
+
 import logging
 # 设置 logging 配置
 # logging.basicConfig(level=logging.WARNING)
@@ -21,7 +24,10 @@ class MLD_Hypergraph:
 
     def get_hyperedges(self) -> List[List[str]]:
         return self.hyperedges
-
+    
+    def get_weights(self) -> List[float]:
+        return self.weights
+    
     def detector_error_model_to_hypergraph(self, detector_error_model: stim.DetectorErrorModel)-> Tuple[List[str], List[List[str]], List[float]]:
         """将错误检测模型转换为超图。
 
@@ -96,3 +102,28 @@ class MLD_Hypergraph:
             elif have_logical_observable and flip_object.is_logical_observable_id():
                 hyperedge.append(f"L{flip_object.val}")
         return hyperedge
+    
+    def draw_bipartite_graph(self, nodes: Union[int, None] = None, hyperedge: Union[int, None] = None) -> None:
+        # 创建一个空的二部图
+        B = nx.Graph()
+
+        # 添加节点
+        for node in nodes:
+            B.add_node(node, bipartite=0)  # 将节点分类为一类
+
+        # 添加超边作为新的节点类型
+        for idx, hyperedge in enumerate(hyperedges):
+            hyperedge_name = f'edge_{idx}'
+            B.add_node(hyperedge_name, bipartite=1)  # 超边作为另一类节点
+            for node in hyperedge:
+                B.add_edge(hyperedge_name, node)  # 连接超边与它包含的节点
+
+        # 调整布局参数，使节点更加分散
+        pos = nx.spring_layout(B, k=0.6, scale=2, iterations=100)
+
+        # 进行绘制
+        nx.draw(B, pos, with_labels=True, node_color=['lightblue' if B.nodes[node]['bipartite'] == 0 else 'lightgreen' for node in B], 
+                font_size=8, node_size=600, edge_color='gray')
+
+        # 显示图像
+        plt.show()
