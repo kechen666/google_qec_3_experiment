@@ -1,4 +1,5 @@
 import stim
+import MLD
 
 import logging
 # 设置 logging 配置
@@ -6,13 +7,14 @@ import logging
 logger = logging.getLogger(__name__)
 from typing import List, Union, Optional, Tuple, Set, Dict
 
-def add_neightboring_nodes(currently_calculated_nodes: List, current_distribution_related_nodes: Set, detector_connectivity: Dict):
+def add_neightboring_nodes(currently_calculated_nodes: List[str], current_distribution_related_nodes: Set[str], detector_connectivity:Dict[str:List[int]]) -> Set[str]:
+    
     for node in currently_calculated_nodes:
         for i in detector_connectivity[node]:
             current_distribution_related_nodes.add(f"D{i}")
     return current_distribution_related_nodes
 
-def get_current_neightboring_nodes_new_nodes_lenth(current_neighboring_nodes: List, current_distribution_related_nodes: Set, detector_connectivity:Dict):
+def get_current_neightboring_nodes_new_nodes_lenth(current_neighboring_nodes: List[str], current_distribution_related_nodes: Set[str], detector_connectivity:Dict[str:List[int]]) -> Dict[str:int]:
     current_neightboring_nodes_new_nodes_lenth = {}
     # print("current_neighboring_nodes:",current_neighboring_nodes)
     for neighbor in current_neighboring_nodes:
@@ -45,13 +47,15 @@ def Greedy_MLD_max_dimensions(detector_error_model: stim.DetectorErrorModel):
     current_distribution_related_nodes = set()
 
     for step in range(ml_decoder.detector_number):
-        # print(f"step: {step}")
+        logger.debug(f"step: {step}")
         if step == 0:
             detector = min(detector_connectivity_length, key=detector_connectivity_length.get)
         else:
             current_neightboring_nodes_new_nodes_lenth = get_current_neightboring_nodes_new_nodes_lenth(current_neighboring_nodes, current_distribution_related_nodes, detector_connectivity)
             detector = min(current_neightboring_nodes_new_nodes_lenth, key=current_neightboring_nodes_new_nodes_lenth.get)
-        # print(f"detector is:{detector}")
+            
+        logger.debug(f"detector is:{detector}")
+        
         currently_calculated_nodes.append(detector)
         current_distribution_related_nodes.add(detector)
         current_distribution_related_nodes = add_neightboring_nodes(currently_calculated_nodes, current_distribution_related_nodes, detector_connectivity)
@@ -64,12 +68,12 @@ def Greedy_MLD_max_dimensions(detector_error_model: stim.DetectorErrorModel):
         elif current_distribution_dimensions == max_distribution_dimensions:
             max_distribution_dimensions_number += 1
 
-        # print(f"current_distribution_dimensions: {current_distribution_dimensions}, size is: {2**current_distribution_dimensions}")
-        # print(f"currently_calculated_nodes: {currently_calculated_nodes}")
-        # print(f"current_distribution_related_nodes: {current_distribution_related_nodes}")
-        # print(f"current_neighboring_nodes: {current_neighboring_nodes}")
-        
-    # print(f"max_distribution_dimensions:{max_distribution_dimensions}")
+        logger.debug(f"current_distribution_dimensions: {current_distribution_dimensions}, size is: {2**current_distribution_dimensions}")
+        logger.debug(f"currently_calculated_nodes: {currently_calculated_nodes}")
+        logger.debug(f"current_distribution_related_nodes: {current_distribution_related_nodes}")
+        logger.debug(f"current_neighboring_nodes: {current_neighboring_nodes}")
+
+    logger.debug(f"max_distribution_dimensions:{max_distribution_dimensions}")
     return max_distribution_dimensions
 
 def MLD_max_dimensions(detector_error_model: stim.DetectorErrorModel) ->int:
@@ -92,10 +96,10 @@ def MLD_max_dimensions(detector_error_model: stim.DetectorErrorModel) ->int:
     current_neighboring_nodes = []
     current_distribution_related_nodes = set()
     for step in range(ml_decoder.detector_number):
-        # print(f"step: {step}")
+        logger.debug(f"step: {step}")
         ## 当前执行的节点，就是当前步骤索引对应的检测器
         detector = f"D{step}"
-        # print(f"detector is:{detector}")
+        logger.debug(f"detector is:{detector}")
         currently_calculated_nodes.append(detector)
         current_distribution_related_nodes.add(detector)
         current_distribution_related_nodes = add_neightboring_nodes(currently_calculated_nodes, current_distribution_related_nodes, detector_connectivity)
@@ -108,10 +112,10 @@ def MLD_max_dimensions(detector_error_model: stim.DetectorErrorModel) ->int:
         elif current_distribution_dimensions == max_distribution_dimensions:
             max_distribution_dimensions_number += 1
 
-        # print(f"current_distribution_dimensions: {current_distribution_dimensions}, size is: {2**current_distribution_dimensions}")
-        # print(f"currently_calculated_nodes: {currently_calculated_nodes}")
-        # print(f"current_distribution_related_nodes: {current_distribution_related_nodes}")
-        # print(f"current_neighboring_nodes: {current_neighboring_nodes}")
+        logger.debug(f"current_distribution_dimensions: {current_distribution_dimensions}, size is: {2**current_distribution_dimensions}")
+        logger.debug(f"currently_calculated_nodes: {currently_calculated_nodes}")
+        logger.debug(f"current_distribution_related_nodes: {current_distribution_related_nodes}")
+        logger.debug(f"current_neighboring_nodes: {current_neighboring_nodes}")
         
-    # print(f"max_distribution_dimensions:{max_distribution_dimensions}")
+    logger.debug(f"max_distribution_dimensions:{max_distribution_dimensions}")
     return max_distribution_dimensions
