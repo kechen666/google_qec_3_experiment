@@ -7,14 +7,37 @@ import logging
 logger = logging.getLogger(__name__)
 from typing import List, Union, Optional, Tuple, Set, Dict
 
-def add_neightboring_nodes(currently_calculated_nodes: List[str], current_distribution_related_nodes: Set[str], detector_connectivity:Dict[str:List[int]]) -> Set[str]:
-    
+def add_neightboring_nodes(currently_calculated_nodes: List[str], current_distribution_related_nodes: Set[str], detector_connectivity: Dict[str, List[int]]) -> Set[str]:
+    """超图中，在最新的当前已计算节点中，计算最新的当前相邻节点
+
+    Args:
+        currently_calculated_nodes (List[str]): 当前已计算节点. 比如['D1', 'D3']
+        current_distribution_related_nodes (Set[str]): 前一轮已计算节点的相邻节点. 比如{'D1', 'D9', 'D3'}
+        detector_connectivity (Dict[str, List[int]]): 节点的连接关系
+
+    Returns:
+        Set[str]: 当前轮的已计算节点的相邻节点. 比如{'D11', 'D9', 'D0', 'D1', 'D3', 'D10'}
+    """
     for node in currently_calculated_nodes:
         for i in detector_connectivity[node]:
             current_distribution_related_nodes.add(f"D{i}")
     return current_distribution_related_nodes
 
-def get_current_neightboring_nodes_new_nodes_lenth(current_neighboring_nodes: List[str], current_distribution_related_nodes: Set[str], detector_connectivity:Dict[str:List[int]]) -> Dict[str:int]:
+def get_current_neightboring_nodes_new_nodes_lenth(current_neighboring_nodes: List[str], current_distribution_related_nodes: Set[str], detector_connectivity: Dict[str, List[int]]) -> Dict[str, int]:
+    """Calculate the number of new nodes for each neighboring node.
+    This function takes a list of current neighboring nodes, a set of nodes related to the current distribution, 
+    and a dictionary representing detector connectivity. It returns a dictionary where the keys are the neighboring 
+    nodes and the values are the count of new nodes that are not part of the current distribution.
+    
+    Args:
+        current_neighboring_nodes (List[str]): List of current neighboring nodes.
+        current_distribution_related_nodes (Set[str]): Set of nodes related to the current distribution.
+        detector_connectivity (Dict[str, List[int]]): Dictionary representing the connectivity of detectors, 
+                                                      where keys are node identifiers and values are lists of 
+                                                      connected node indices.
+    Returns:
+        Dict[str, int]: Dictionary with neighboring nodes as keys and the count of new nodes as values.
+    """
     current_neightboring_nodes_new_nodes_lenth = {}
     # print("current_neighboring_nodes:",current_neighboring_nodes)
     for neighbor in current_neighboring_nodes:
@@ -26,7 +49,7 @@ def get_current_neightboring_nodes_new_nodes_lenth(current_neighboring_nodes: Li
         current_neightboring_nodes_new_nodes_lenth[neighbor] = len(new_nodes)
     return current_neightboring_nodes_new_nodes_lenth
 
-def Greedy_MLD_max_dimensions(detector_error_model: stim.DetectorErrorModel):
+def Greedy_MLD_max_dimensions(detector_error_model: stim.DetectorErrorModel) -> int:
     """基于贪心的思路, 利用MLD来解码, 我们希望找到过程中所涉及的最大规模计算
 
     Args:
